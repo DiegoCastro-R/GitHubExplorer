@@ -9,7 +9,6 @@ export const Title = styled.h1`
   color: #3a3a3a;
   max-width: 450px;
   line-height: 56px;
-
   margin-top: 80px;
 `;
 
@@ -22,9 +21,7 @@ export const Error = styled.span`
 export const Form = styled.form<FormProps>`
   margin-top: 40px;
   max-width: 700px;
-
   display: flex;
-
   input {
     flex: 1;
     height: 70px;
@@ -61,7 +58,6 @@ export const Form = styled.form<FormProps>`
 export const Repositories = styled.div`
   margin-top: 80px;
   max-width: 700px;
-
   a {
     background: #fff;
     border-radius: 5px;
@@ -69,18 +65,15 @@ export const Repositories = styled.div`
     padding: 24px;
     display: block;
     text-decoration: none;
-
     display: flex;
     align-items: center;
     transition: transform 0.2s;
     &:hover {
       transform: translateX(10px);
     }
-
     & + a {
       margin-top: 16px;
     }
-
     img {
       width: 64px;
       height: 64px;
@@ -93,7 +86,6 @@ export const Repositories = styled.div`
         font-size: 20px;
         color: #3d3d4d;
       }
-
       p {
         font-size: 18px;
         color: #a8a8b3;
